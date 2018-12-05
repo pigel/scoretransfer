@@ -129,7 +129,7 @@ public class counters extends AppCompatActivity {
     public void saveHis() {
 
         try {
-            outputStream = openFileOutput(SAVED_HISTORY, Context.MODE_PRIVATE);
+            outputStream = openFileOutput(SAVED_HISTORY, Context.MODE_APPEND);
             outputStream.write(getdata.getBytes());
             outputStream.close();
 

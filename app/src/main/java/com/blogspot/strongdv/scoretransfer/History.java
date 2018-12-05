@@ -21,6 +21,7 @@ public class History extends AppCompatActivity {
  TextView hisText;
   TextView textViewLast;
     // FileInputStream inputStream;
+    //String get;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +30,7 @@ public class History extends AppCompatActivity {
         textViewLast = findViewById(R.id.textViewLast);
         //hisText.append(getdata);
        // textViewLast.setText(getdata);
-
+      // get = getdata.getText().toString();
         onOpen();
 
        // saveHis();
